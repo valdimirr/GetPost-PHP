@@ -1,0 +1,114 @@
+
+
+
+body {
+   
+   background-image: url("img/backgroud.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   min-height: 100vh;
+
+}
+
+header{
+margin:5px ;
+border: solid 2px purple;
+background-color: #FFE4E1;
+height: 20%;
+text-align: center;
+opacity: 0.5;
+
+}
+p{
+font-size: 30px;
+
+}
+
+button {
+
+border-radius: 10px;
+
+}
+
+input{
+
+height: 70%;
+width: 90%;
+}
+
+
+.div_form{
+ 
+text-align: center;
+background-color: #2F4F4F;
+height: 70%;
+
+width: 13%;
+padding: 10px;
+border-radius: 10px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 10vh;
+
+}
+
+.p_title{
+font-size: 15px;
+color: white;
+
+}
+
+.button_enviar{
+margin-top: 20px;
+width: 100px;
+cursor: pointer;
+}
+
+.button_enviar:active{
+position: relative;
+top: 1px;
+
+}
+
+
+.btn_cad{
+background:linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
+width: 100%;
+height: 10%;
+margin-top:20%;
+border-radius: 10px;
+text-align: center;
+font: normal;
+cursor: pointer;
+
+}
+   .btn_cad:hover {
+   background:linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
+   background-color:#5cbf2a;
+}
+   .btn_cad:active {
+position:relative;
+top:1px;
+}
+
+.a_btn{
+
+   color: black;
+   text-decoration: none;
+}
+
+.msg{
+
+color: red;
+font-size: 20px;
+text-align: center;
+
+}
+
+.div_aviso{
+
+text-align: center;
+height: 8%;
+width: 100%;
+
+}
